@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header>
+    <h2>{{ page.title }}</h2>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <footer>
+    {% if page.previous %}
+      <a href="{{ page.previous.url }}" class="float-left">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i> Previous post
+      </a>
+    {% endif %}
+
+    {% if page.next %}
+      <a href="{{ page.next.url }}" class="float-right">
+        Next post <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    {% endif %}
+  </footer>
+</article>

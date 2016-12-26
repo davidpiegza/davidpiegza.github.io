@@ -1,0 +1,9 @@
+footer[role=contentinfo] {
+  hr {
+    width: 100px;
+    height: 1px;
+    margin: 2rem auto;
+    border: 0;
+    background-color: $brand-primary;
+  }
+}
