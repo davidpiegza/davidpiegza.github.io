@@ -1,10 +1,10 @@
 header[role=banner] {
-  margin: 80px 0 50px;
   border-bottom: 1px solid $brand-primary;
+  margin: 80px 0 50px;
 
   h1 {
-    margin: 0;
     font-size: 3rem;
+    margin: 0;
   }
 
   nav {
@@ -16,10 +16,10 @@ header[role=banner] {
     ul {
       li {
         display: inline-block;
-      }
 
-      li + li {
-        margin-left: .5rem;
+        + li {
+          margin-left: .5rem;
+        }
       }
 
       .fa {

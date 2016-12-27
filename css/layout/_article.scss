@@ -9,7 +9,7 @@ article {
     margin-top: 20px;
   }
 
-  figure.highlight {
+  .highlight {
     margin: 35px 0;
   }
 
@@ -18,7 +18,7 @@ article {
   }
 
   .post-content {
-    color: rgba(0, 0, 0, 0.8);
+    color: $gray-base;
 
     a {
       text-decoration: underline;
@@ -29,7 +29,7 @@ article {
     margin: 50px 0;
 
     a {
-      color: #777;
+      color: $gray;
     }
   }
 }
