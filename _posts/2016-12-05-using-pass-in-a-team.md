@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Using pass in a team
-date:   2016-12-05 20:05:15 +0100
+date:   2016-12-27 15:05:15 +0100
 categories: pass password-manager
 ---
 
