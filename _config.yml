@@ -15,11 +15,20 @@
 # in the templates via {{ site.myvariable }}.
 title: "@davidpiegza | Thoughts on Web Development"
 description: >
-  @davidpiegza | Thoughts on Web Development, Ruby, Rails, HTML5 and unix tools.
+  This blog covers topics in Web Development, Ruby, Rails, HTML5 and unix tools.
 baseurl: ""
 url: https://davidpiegza.github.io
 twitter_username: davidpiegza
 github_username:  davidpiegza
+
+twitter:
+  username: davidpiegza
+
+social:
+  name: David Piegza
+  links:
+    - https://twitter.com/davidpiegza
+    - https://github.com/davidpiegza
 
 # Build settings
 markdown: kramdown
@@ -28,6 +37,7 @@ sass:
   sass_dir: css
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
