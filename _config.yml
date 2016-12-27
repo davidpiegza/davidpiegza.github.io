@@ -27,7 +27,6 @@ sass:
   sass_dir: css
 gems:
   - jekyll-feed
-  - bootstrap-sass
 exclude:
   - Gemfile
   - Gemfile.lock
