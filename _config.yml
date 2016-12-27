@@ -23,6 +23,7 @@ github_username:  davidpiegza
 
 # Build settings
 markdown: kramdown
+permalink: ":year/:month/:day/:title/"
 sass:
   sass_dir: css
 gems:
